@@ -1,0 +1,117 @@
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe.config
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.pdb
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.AssemblyReference.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIPrincipal.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.Properties.Resources.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.GenerateResource.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.CoreCompileInputs.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.pdb
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe.config
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIAcercaDe.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\obj\Debug\POCClien.936AE757.Up2Date
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe.config
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.pdb
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.dll
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.xml
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.AssemblyReference.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe.config
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIAcercaDe.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroED.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIPrincipal.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.Properties.Resources.resources
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.GenerateResource.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.CoreCompileInputs.cache
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClien.936AE757.Up2Date
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe
+C:\Users\Maria Ramos\source\repos\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.pdb
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.AssemblyReference.cache
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe.config
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.exe
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.pdb
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe.config
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.exe
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\POCClienteEvento.pdb
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.dll
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Buffers.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.IO.Pipelines.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Memory.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Numerics.Vectors.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Encodings.Web.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Text.Json.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\bin\Debug\System.ValueTuple.xml
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIAcercaDe.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroED.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIPrincipal.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.Properties.Resources.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.GenerateResource.cache
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.csproj.CoreCompileInputs.cache
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClien.936AE757.Up2Date

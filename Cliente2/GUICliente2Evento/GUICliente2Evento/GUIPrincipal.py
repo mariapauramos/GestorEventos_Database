@@ -1,13 +1,19 @@
 import tkinter as tk
 from tkinter import Menu, messagebox
 from PIL import Image, ImageTk  
-from GUICrearEQ import GUICrearEQ
-from GUIListarEQ import GUIListarEQ
-from GUIListarFiltroEQ import GUIListarFiltroEQ
-from GUIBuscarEQ import GUIBuscarEQ
-from GUIActualizarEQ import GUIActualizarEQ
+from Equipos.GUICrearEQ import GUICrearEQ
+from Equipos.GUIListarEQ import GUIListarEQ
+from Equipos.GUIListarFiltroEQ import GUIListarFiltroEQ
+from Equipos.GUIBuscarEQ import GUIBuscarEQ
+from Equipos.GUIActualizarEQ import GUIActualizarEQ
 from GUIAcercaDe import GUIAcercaDe
-from GUIEliminarEQ import GUIEliminarEQ
+from Equipos.GUIEliminarEQ import GUIEliminarEQ
+from SedesDeportivas.GUICrearSD import GUICrearSedeDeportiva
+from SedesDeportivas.GUIBuscarSD import GUIBuscarSedeDeportiva
+from SedesDeportivas.GUIListarSD import GUIListarSedeDeportiva
+from SedesDeportivas.GUIListarFiltroSD import GUIListarFiltroSedeDeportiva
+from SedesDeportivas.GUIActualizarSD import GUIActualizarSedeDeportiva
+from SedesDeportivas.GUIEliminarSD import GUIEliminarSedeDeportiva
 
 
 
@@ -41,6 +47,19 @@ class GUIPrincipal:
         evento_menu.add_cascade(label="Equipos Deportivos", menu=evento_deportivo_menu)
         menubar.add_cascade(label="Equipos", menu=evento_menu)
 
+        #Menu Sedes Deportivas
+        sede_menu=Menu(menubar,tearoff=0)
+        sede_deportivo_menu = Menu(sede_menu, tearoff=0)
+        sede_deportivo_menu.add_command(label="Crear", command=self.crearSD)
+        sede_deportivo_menu.add_command(label="Buscar", command=self.buscarSD)
+        sede_deportivo_menu.add_command(label="Listar", command=self.listarSD)
+        sede_deportivo_menu.add_command(label="Listar por filtro", command=self.listarFiltroSD)
+        sede_deportivo_menu.add_command(label="Actualizar", command=self.actualizarSD)
+        sede_deportivo_menu.add_command(label="Eliminar", command=self.eliminarSD)
+        sede_menu.add_cascade(label="Sedes Deportivas", menu=sede_deportivo_menu)
+        menubar.add_cascade(label="Sedes", menu=sede_menu)
+
+
         # Menú Ayuda
         ayuda_menu = Menu(menubar, tearoff=0)
         ayuda_menu.add_command(label="Acerca de", command=self.acerca_de)
@@ -58,10 +77,14 @@ class GUIPrincipal:
         except Exception as e:
             print("Error al cargar la imagen:", e)
 
-    # ====== FUNCIONES DEL MENÚ ======
     def salir(self):
         self.root.quit()
 
+    def acerca_de(self):
+        GUIAcercaDe(self.root)
+
+
+    #CRUD de equipos
     def crear(self):
         GUICrearEQ(self.root)
 
@@ -80,10 +103,26 @@ class GUIPrincipal:
     def eliminar(self):
         GUIEliminarEQ(self.root)
 
-    def acerca_de(self):
-        GUIAcercaDe(self.root)
 
-# ====== EJECUCIÓN ======
+    #CRUD de sedes deportivas\
+    def crearSD(self):
+        GUICrearSedeDeportiva(self.root)
+
+    def buscarSD(self):
+        GUIBuscarSedeDeportiva(self.root)
+
+    def listarSD(self):
+        GUIListarSedeDeportiva(self.root)
+
+    def listarFiltroSD(self):
+        GUIListarFiltroSedeDeportiva(self.root)
+
+    def actualizarSD(self):
+        GUIActualizarSedeDeportiva(self.root)
+
+    def eliminarSD(self):
+        GUIEliminarSedeDeportiva(self.root)
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = GUIPrincipal(root)

@@ -48,7 +48,7 @@ class GUICrearEQ(tk.Toplevel):
             self.entries[label] = entry
 
         # 
-        tk.Label(self, text="Evento (Opcional):", font=("Verdana", 11), bg="white").place(x=50, y= y_inicial + 5*40)
+        tk.Label(self, text="Evento Deportivo:", font=("Verdana", 11), bg="white").place(x=50, y= y_inicial + 5*40)
 
         self.combo_eventos = ttk.Combobox(self, state="readonly", font=("Verdana", 11))
         self.combo_eventos.place(x=200, y=y_inicial + 5*40, width=330)

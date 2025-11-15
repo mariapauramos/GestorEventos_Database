@@ -78,6 +78,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUIEliminarEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIEliminarEQ.Designer.cs">
+      <DependentUpon>GUIEliminarEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIActualizarEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIActualizarEQ.Designer.cs">
+      <DependentUpon>GUIActualizarEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIListarParametroEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIListarParametroEQ.Designer.cs">
+      <DependentUpon>GUIListarParametroEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIListarEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIListarEQ.Designer.cs">
+      <DependentUpon>GUIListarEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIBuscarEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIBuscarEQ.Designer.cs">
+      <DependentUpon>GUIBuscarEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUICrearEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUICrearEQ.Designer.cs">
+      <DependentUpon>GUICrearEQ.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUIAcercaDe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,20 +170,38 @@
     <EmbeddedResource Include="GUIActualizarED.resx">
       <DependentUpon>GUIActualizarED.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUIActualizarEQ.resx">
+      <DependentUpon>GUIActualizarEQ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUIBuscarED.resx">
       <DependentUpon>GUIBuscarED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIBuscarEQ.resx">
+      <DependentUpon>GUIBuscarEQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUICrearED.resx">
       <DependentUpon>GUICrearED.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUICrearEQ.resx">
+      <DependentUpon>GUICrearEQ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUIEliminarED.resx">
       <DependentUpon>GUIEliminarED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIEliminarEQ.resx">
+      <DependentUpon>GUIEliminarEQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUIListarED.resx">
       <DependentUpon>GUIListarED.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUIListarEQ.resx">
+      <DependentUpon>GUIListarEQ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUIListarParametroED.resx">
       <DependentUpon>GUIListarParametroED.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIListarParametroEQ.resx">
+      <DependentUpon>GUIListarParametroEQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUIPrincipal.resx">
       <DependentUpon>GUIPrincipal.cs</DependentUpon>

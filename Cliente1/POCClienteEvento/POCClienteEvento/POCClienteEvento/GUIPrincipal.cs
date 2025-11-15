@@ -65,5 +65,51 @@ namespace POCClienteEvento
             GUIAcercaDe gui = new GUIAcercaDe();
             gui.Show();
         }
+
+        private void jMenuEvento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            GUICrearEQ gui = new GUICrearEQ();
+            gui.Show();
+        }
+
+        private void jMenuBuscarEquipo_Click(object sender, EventArgs e)
+        {
+            GUIBuscarEQ gui = new GUIBuscarEQ();
+            gui.Show();
+        }
+
+        private void jMenuListarEquipo_Click(object sender, EventArgs e)
+        {
+            GUIListarEQ gui = new GUIListarEQ();
+            gui.Show();
+        }
+
+        private void jMenuFiltroEquipo_Click(object sender, EventArgs e)
+        {
+            GUIListarParametroEQ gui = new GUIListarParametroEQ();
+            gui.Show();
+        }
+
+        private void jMenuActualizarEquipo_Click(object sender, EventArgs e)
+        {
+            GUIActualizarEQ gui = new GUIActualizarEQ();
+            gui.Show();
+        }
+
+        private void jMenuEliminarEquipo_Click(object sender, EventArgs e)
+        {
+            GUIEliminarEQ gui = new GUIEliminarEQ();
+            gui.Show();
+        }
     }
 }

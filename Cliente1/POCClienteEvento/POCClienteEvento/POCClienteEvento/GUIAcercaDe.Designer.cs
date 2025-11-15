@@ -39,9 +39,11 @@
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(44, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(340, 18);
+            this.label3.Size = new System.Drawing.Size(354, 36);
             this.label3.TabIndex = 63;
-            this.label3.Text = "Maria Paula Ramos Carrillo, 2220211032";
+            this.label3.Text = "Maria Paula Ramos Carrillo, 2220211032\r\nSantiago Arciniegas Jiménez, 2220221016\r\n" +
+    "";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
             // 
@@ -52,6 +54,7 @@
             this.label1.Size = new System.Drawing.Size(197, 23);
             this.label1.TabIndex = 61;
             this.label1.Text = "Desarrollado por:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -74,6 +77,7 @@
             this.Controls.Add(this.label1);
             this.Name = "GUIAcercaDe";
             this.Text = "Acerca de";
+            this.Load += new System.EventHandler(this.GUIAcercaDe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

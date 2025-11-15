@@ -27,7 +27,7 @@ namespace POCClienteEvento
         private async void buttonListar_Click(object sender, EventArgs e)
         {
             try
-    {
+            {
                 using (HttpClient client = new HttpClient())
                 {
                     // Autenticación
@@ -35,7 +35,7 @@ namespace POCClienteEvento
                     client.DefaultRequestHeaders.Authorization =
                         new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", credentials);
 
-                    
+
                     string ciudad = txtCiudad.Text.Trim();
                     string tipoDeporte = txtTipoDeporte.Text.Trim();
 
@@ -50,7 +50,7 @@ namespace POCClienteEvento
                     if (queryParams.Any())
                         url += "?" + string.Join("&", queryParams);
 
-                    
+
                     HttpResponseMessage response = await client.GetAsync(url);
 
                     if (response.IsSuccessStatusCode)
@@ -127,10 +127,50 @@ namespace POCClienteEvento
                     }
                 }
             }
-    catch (Exception ex)
-    {
+            catch (Exception ex)
+            {
                 MessageBox.Show("Error al listar por parámetros: " + ex.Message);
             }
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTipoDeporte_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCiudad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }

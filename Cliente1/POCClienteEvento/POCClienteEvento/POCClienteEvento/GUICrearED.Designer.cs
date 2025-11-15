@@ -199,6 +199,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(84, 76);
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // GUICrearED
             // 
@@ -223,6 +224,7 @@
             this.Controls.Add(this.label1);
             this.Name = "GUICrearED";
             this.Text = "Crear Evento Deportivo";
+            this.Load += new System.EventHandler(this.GUICrearED_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

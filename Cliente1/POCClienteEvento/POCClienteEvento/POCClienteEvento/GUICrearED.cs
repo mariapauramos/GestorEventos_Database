@@ -99,6 +99,16 @@ namespace POCClienteEvento
             public string fecha { get; set; }
             public string tipoDeporte { get; set; }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GUICrearED_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
        

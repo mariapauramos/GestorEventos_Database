@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\pocclienteevento\\guiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,35 +11,19 @@
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guieliminared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guieliminared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guieliminareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guieliminareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guieliminareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guieliminareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\pocclienteevento\\guieliminared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guieliminared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guiactualizareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\pocclienteevento\\guiactualizareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiactualizareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guiactualizareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiactualizareq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|c:\\users\\santiago\\desktop\\gestor_eventodb\\cliente1\\pocclienteevento\\pocclienteevento\\pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12671EE7-583A-4770-B5CC-61B97895585A}|POCClienteEvento\\POCClienteEvento.csproj|solutionrelative:pocclienteevento\\guiactualizared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -70,20 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GUIEliminarED.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarED.cs",
-              "RelativeDocumentMoniker": "POCClienteEvento\\GUIEliminarED.cs",
-              "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarED.cs [Dise\u00F1o]",
-              "RelativeToolTip": "POCClienteEvento\\GUIEliminarED.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:52:42.858Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -104,39 +76,14 @@
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIPrincipal.cs",
               "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIPrincipal.cs",
               "RelativeToolTip": "POCClienteEvento\\GUIPrincipal.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwGMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAqwJUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T02:07:25.808Z",
+              "WhenOpened": "2025-11-15T18:48:20.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GUIEliminarEQ.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarEQ.cs",
-              "RelativeDocumentMoniker": "POCClienteEvento\\GUIEliminarEQ.cs",
-              "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarEQ.cs [Dise\u00F1o]",
-              "RelativeToolTip": "POCClienteEvento\\GUIEliminarEQ.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:53:10.594Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GUIEliminarEQ.cs",
-              "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarEQ.cs",
-              "RelativeDocumentMoniker": "POCClienteEvento\\GUIEliminarEQ.cs",
-              "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarEQ.cs",
-              "RelativeToolTip": "POCClienteEvento\\GUIEliminarEQ.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAswCYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:56:15.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "GUIActualizarEQ.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarEQ.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIActualizarEQ.cs",
@@ -149,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GUIEliminarED.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIEliminarED.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIEliminarED.cs",
@@ -157,24 +104,11 @@
               "RelativeToolTip": "POCClienteEvento\\GUIEliminarED.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAIwK4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:59:28.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T01:59:28.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GUIActualizarEQ.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarEQ.cs",
-              "RelativeDocumentMoniker": "POCClienteEvento\\GUIActualizarEQ.cs",
-              "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarEQ.cs [Dise\u00F1o]",
-              "RelativeToolTip": "POCClienteEvento\\GUIActualizarEQ.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:39:50.86Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "GUIActualizarED.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarED.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIActualizarED.cs",
@@ -182,24 +116,22 @@
               "RelativeToolTip": "POCClienteEvento\\GUIActualizarED.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:39:17.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:39:17.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "GUIActualizarED.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarED.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIActualizarED.cs",
               "ToolTip": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarED.cs [Dise\u00F1o]",
               "RelativeToolTip": "POCClienteEvento\\GUIActualizarED.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:39:13.404Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-15T17:39:13.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "GUICrearEQ.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUICrearEQ.Designer.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUICrearEQ.Designer.cs",
@@ -212,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "GUIActualizarED.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIActualizarED.Designer.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIActualizarED.Designer.cs",
@@ -220,12 +152,11 @@
               "RelativeToolTip": "POCClienteEvento\\GUIActualizarED.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:59:28.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T01:59:28.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "GUIBuscarED.resx",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIBuscarED.resx",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIBuscarED.resx",
@@ -237,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "GUIPrincipal.resx",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIPrincipal.resx",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIPrincipal.resx",
@@ -249,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "GUIPrincipal.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SANTIAGO\\Desktop\\Gestor_EventoDB\\Cliente1\\POCClienteEvento\\POCClienteEvento\\POCClienteEvento\\GUIPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "POCClienteEvento\\GUIPrincipal.Designer.cs",

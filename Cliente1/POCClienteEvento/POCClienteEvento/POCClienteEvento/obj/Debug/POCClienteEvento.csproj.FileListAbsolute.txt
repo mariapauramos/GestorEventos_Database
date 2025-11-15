@@ -159,3 +159,9 @@ C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEv
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarEQ.resources
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarEQ.resources
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroEQ.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarSD.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarSD.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearSD.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarSD.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroSD.resources
+C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarSD.resources

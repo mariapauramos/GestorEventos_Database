@@ -51,6 +51,14 @@
             this.jMenuAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.jMenuItemAcerca = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.jMenuSedes = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuEdSedes = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuCrearSede = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuBuscarSede = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuListarSede = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuFiltroSede = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuActualizarSede = new System.Windows.Forms.ToolStripMenuItem();
+            this.jMenuEliminarSede = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +69,7 @@
             this.jMenuArchivo,
             this.jMenuEvento,
             this.jMenuEquipos,
+            this.jMenuSedes,
             this.jMenuAyuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -226,7 +235,7 @@
             // jMenuItemAcerca
             // 
             this.jMenuItemAcerca.Name = "jMenuItemAcerca";
-            this.jMenuItemAcerca.Size = new System.Drawing.Size(157, 22);
+            this.jMenuItemAcerca.Size = new System.Drawing.Size(180, 22);
             this.jMenuItemAcerca.Text = "Acerca de";
             this.jMenuItemAcerca.Click += new System.EventHandler(this.jMenuItemAcerca_Click);
             // 
@@ -238,6 +247,70 @@
             this.pictureBox.Size = new System.Drawing.Size(405, 231);
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
+            // 
+            // jMenuSedes
+            // 
+            this.jMenuSedes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.jMenuEdSedes});
+            this.jMenuSedes.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jMenuSedes.Name = "jMenuSedes";
+            this.jMenuSedes.Size = new System.Drawing.Size(69, 22);
+            this.jMenuSedes.Text = "Sedes";
+            // 
+            // jMenuEdSedes
+            // 
+            this.jMenuEdSedes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.jMenuCrearSede,
+            this.jMenuBuscarSede,
+            this.jMenuListarSede,
+            this.jMenuFiltroSede,
+            this.jMenuActualizarSede,
+            this.jMenuEliminarSede});
+            this.jMenuEdSedes.Name = "jMenuEdSedes";
+            this.jMenuEdSedes.Size = new System.Drawing.Size(219, 22);
+            this.jMenuEdSedes.Text = "Sedes Deportivas";
+            // 
+            // jMenuCrearSede
+            // 
+            this.jMenuCrearSede.Name = "jMenuCrearSede";
+            this.jMenuCrearSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuCrearSede.Text = "Crear ";
+            this.jMenuCrearSede.Click += new System.EventHandler(this.jMenuCrearSede_Click);
+            // 
+            // jMenuBuscarSede
+            // 
+            this.jMenuBuscarSede.Name = "jMenuBuscarSede";
+            this.jMenuBuscarSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuBuscarSede.Text = "Buscar";
+            this.jMenuBuscarSede.Click += new System.EventHandler(this.jMenuBuscarSede_Click);
+            // 
+            // jMenuListarSede
+            // 
+            this.jMenuListarSede.Name = "jMenuListarSede";
+            this.jMenuListarSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuListarSede.Text = "Listar";
+            this.jMenuListarSede.Click += new System.EventHandler(this.jMenuListarSede_Click);
+            // 
+            // jMenuFiltroSede
+            // 
+            this.jMenuFiltroSede.Name = "jMenuFiltroSede";
+            this.jMenuFiltroSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuFiltroSede.Text = "Listar por filtro";
+            this.jMenuFiltroSede.Click += new System.EventHandler(this.jMenuFiltroSede_Click);
+            // 
+            // jMenuActualizarSede
+            // 
+            this.jMenuActualizarSede.Name = "jMenuActualizarSede";
+            this.jMenuActualizarSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuActualizarSede.Text = "Actualizar";
+            this.jMenuActualizarSede.Click += new System.EventHandler(this.jMenuActualizarSede_Click);
+            // 
+            // jMenuEliminarSede
+            // 
+            this.jMenuEliminarSede.Name = "jMenuEliminarSede";
+            this.jMenuEliminarSede.Size = new System.Drawing.Size(199, 22);
+            this.jMenuEliminarSede.Text = "Eliminar";
+            this.jMenuEliminarSede.Click += new System.EventHandler(this.jMenuEliminarSede_Click);
             // 
             // GUIPrincipal
             // 
@@ -281,6 +354,14 @@
         private System.Windows.Forms.ToolStripMenuItem jMenuFiltroEquipo;
         private System.Windows.Forms.ToolStripMenuItem jMenuActualizarEquipo;
         private System.Windows.Forms.ToolStripMenuItem jMenuEliminarEquipo;
+        private System.Windows.Forms.ToolStripMenuItem jMenuSedes;
+        private System.Windows.Forms.ToolStripMenuItem jMenuEdSedes;
+        private System.Windows.Forms.ToolStripMenuItem jMenuCrearSede;
+        private System.Windows.Forms.ToolStripMenuItem jMenuBuscarSede;
+        private System.Windows.Forms.ToolStripMenuItem jMenuListarSede;
+        private System.Windows.Forms.ToolStripMenuItem jMenuFiltroSede;
+        private System.Windows.Forms.ToolStripMenuItem jMenuActualizarSede;
+        private System.Windows.Forms.ToolStripMenuItem jMenuEliminarSede;
     }
 }
 

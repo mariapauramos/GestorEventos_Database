@@ -1,5 +1,6 @@
 package com.businessdevelop.POCEvento.controller;
 
+import com.businessdevelop.POCEvento.dto.EventoConSedeDTO;
 import com.businessdevelop.POCEvento.model.Evento;
 import com.businessdevelop.POCEvento.model.Equipo;
 import com.businessdevelop.POCEvento.model.EventoDeportivo;
@@ -90,5 +91,16 @@ public class ControladorEvento {
         return eliminado ?
                 ResponseEntity.ok("Evento eliminado correctamente") :
                 ResponseEntity.status(HttpStatus.NOT_FOUND).body("Evento no encontrado");
+    }
+
+    @GetMapping("/{idEvento}/detallado")
+    public ResponseEntity<?> buscarEventoDetallado(@PathVariable String idEvento) {
+        try {
+            EventoConSedeDTO dto = servicioEvento.buscarEventoConSede(idEvento);
+            return ResponseEntity.ok(dto);
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body(e.getMessage());
+        }
     }
 }

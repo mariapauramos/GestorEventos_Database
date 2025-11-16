@@ -63,6 +63,7 @@
             this.buttonEliminar.TabIndex = 91;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
             // 
             // pictureBox1
             // 
@@ -103,6 +104,7 @@
             this.buttonBuscar.TabIndex = 82;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // label2
             // 

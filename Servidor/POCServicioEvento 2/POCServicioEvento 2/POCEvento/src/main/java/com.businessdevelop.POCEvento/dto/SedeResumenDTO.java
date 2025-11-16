@@ -12,4 +12,8 @@ public class SedeResumenDTO {
     private int capacidad;
     private LocalDateTime fechaCreacion;
     private boolean cubierta;
+
+    private double costoMantenimiento;   // AGREGAR
+    private String idEventoAsociado;
+    private String nombreEvento;
 }

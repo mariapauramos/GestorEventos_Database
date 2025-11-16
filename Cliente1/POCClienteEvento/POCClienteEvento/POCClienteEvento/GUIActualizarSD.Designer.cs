@@ -47,19 +47,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtCreacion = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBoxCubierta = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxEvento
             // 
+            this.comboBoxEvento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEvento.FormattingEnabled = true;
             this.comboBoxEvento.Location = new System.Drawing.Point(223, 444);
             this.comboBoxEvento.Name = "comboBoxEvento";
-            this.comboBoxEvento.Size = new System.Drawing.Size(230, 21);
+            this.comboBoxEvento.Size = new System.Drawing.Size(230, 26);
             this.comboBoxEvento.TabIndex = 114;
             // 
             // buttonGuardar
@@ -72,6 +73,7 @@
             this.buttonGuardar.TabIndex = 113;
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // buttonEditar
             // 
@@ -83,6 +85,7 @@
             this.buttonEditar.TabIndex = 112;
             this.buttonEditar.Text = "Editar";
             this.buttonEditar.UseVisualStyleBackColor = true;
+            this.buttonEditar.Click += new System.EventHandler(this.buttonEditar_Click);
             // 
             // pictureBox1
             // 
@@ -155,6 +158,7 @@
             this.buttonBuscar.TabIndex = 104;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // label7
             // 
@@ -226,14 +230,6 @@
             this.label1.TabIndex = 97;
             this.label1.Text = "Actualizar Sede Deportiva";
             // 
-            // txtCreacion
-            // 
-            this.txtCreacion.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCreacion.Location = new System.Drawing.Point(223, 364);
-            this.txtCreacion.Name = "txtCreacion";
-            this.txtCreacion.Size = new System.Drawing.Size(260, 27);
-            this.txtCreacion.TabIndex = 116;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -246,10 +242,11 @@
             // 
             // comboBoxCubierta
             // 
+            this.comboBoxCubierta.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxCubierta.FormattingEnabled = true;
             this.comboBoxCubierta.Location = new System.Drawing.Point(223, 404);
             this.comboBoxCubierta.Name = "comboBoxCubierta";
-            this.comboBoxCubierta.Size = new System.Drawing.Size(230, 21);
+            this.comboBoxCubierta.Size = new System.Drawing.Size(230, 26);
             this.comboBoxCubierta.TabIndex = 118;
             // 
             // label9
@@ -262,14 +259,22 @@
             this.label9.TabIndex = 117;
             this.label9.Text = "Cubierta:";
             // 
+            // dateTimePickerFecha
+            // 
+            this.dateTimePickerFecha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerFecha.Location = new System.Drawing.Point(223, 361);
+            this.dateTimePickerFecha.Name = "dateTimePickerFecha";
+            this.dateTimePickerFecha.Size = new System.Drawing.Size(260, 27);
+            this.dateTimePickerFecha.TabIndex = 119;
+            // 
             // GUIActualizarSD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 581);
+            this.Controls.Add(this.dateTimePickerFecha);
             this.Controls.Add(this.comboBoxCubierta);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtCreacion);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.comboBoxEvento);
             this.Controls.Add(this.buttonGuardar);
@@ -317,9 +322,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtCreacion;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBoxCubierta;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
     }
 }

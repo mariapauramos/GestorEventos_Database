@@ -45,19 +45,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtFecha = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBoxEvento = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxCubiera
             // 
+            this.comboBoxCubiera.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxCubiera.FormattingEnabled = true;
             this.comboBoxCubiera.Location = new System.Drawing.Point(227, 382);
             this.comboBoxCubiera.Name = "comboBoxCubiera";
-            this.comboBoxCubiera.Size = new System.Drawing.Size(260, 21);
+            this.comboBoxCubiera.Size = new System.Drawing.Size(260, 26);
             this.comboBoxCubiera.TabIndex = 52;
             // 
             // txtCosto
@@ -142,6 +143,7 @@
             this.buttonCrear.TabIndex = 43;
             this.buttonCrear.Text = "Crear";
             this.buttonCrear.UseVisualStyleBackColor = true;
+            this.buttonCrear.Click += new System.EventHandler(this.buttonCrear_Click);
             // 
             // label7
             // 
@@ -204,14 +206,6 @@
             this.label1.TabIndex = 37;
             this.label1.Text = "Crear Sede Deportiva";
             // 
-            // txtFecha
-            // 
-            this.txtFecha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFecha.Location = new System.Drawing.Point(227, 334);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(260, 27);
-            this.txtFecha.TabIndex = 54;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -224,10 +218,11 @@
             // 
             // comboBoxEvento
             // 
+            this.comboBoxEvento.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEvento.FormattingEnabled = true;
             this.comboBoxEvento.Location = new System.Drawing.Point(227, 424);
             this.comboBoxEvento.Name = "comboBoxEvento";
-            this.comboBoxEvento.Size = new System.Drawing.Size(260, 21);
+            this.comboBoxEvento.Size = new System.Drawing.Size(260, 26);
             this.comboBoxEvento.TabIndex = 56;
             // 
             // label9
@@ -240,14 +235,22 @@
             this.label9.TabIndex = 55;
             this.label9.Text = "ID Evento:";
             // 
+            // dateTimePickerFecha
+            // 
+            this.dateTimePickerFecha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerFecha.Location = new System.Drawing.Point(227, 337);
+            this.dateTimePickerFecha.Name = "dateTimePickerFecha";
+            this.dateTimePickerFecha.Size = new System.Drawing.Size(260, 27);
+            this.dateTimePickerFecha.TabIndex = 57;
+            // 
             // GUICrearSD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 531);
+            this.Controls.Add(this.dateTimePickerFecha);
             this.Controls.Add(this.comboBoxEvento);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.comboBoxCubiera);
             this.Controls.Add(this.txtCosto);
@@ -267,6 +270,7 @@
             this.Controls.Add(this.label1);
             this.Name = "GUICrearSD";
             this.Text = "Crear Sede Deportiva";
+            this.Load += new System.EventHandler(this.GUICrearSD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -291,9 +295,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBoxEvento;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
     }
 }

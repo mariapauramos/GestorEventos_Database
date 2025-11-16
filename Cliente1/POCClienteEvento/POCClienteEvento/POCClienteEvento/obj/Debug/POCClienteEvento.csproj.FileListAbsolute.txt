@@ -165,3 +165,15 @@ C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEv
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarSD.resources
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroSD.resources
 C:\Users\SANTIAGO\Desktop\Gestor_EventoDB\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIActualizarSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIBuscarSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUICrearSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIEliminarSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroEQ.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarParametroSD.resources
+E:\ProyectoDAE\Cliente1\POCClienteEvento\POCClienteEvento\POCClienteEvento\obj\Debug\POCClienteEvento.GUIListarSD.resources

@@ -41,9 +41,9 @@
             this.Capacidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Costo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cubiera = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Evento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FechaCreacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cubierta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EventoAsociado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -60,9 +60,9 @@
             this.Capacidad,
             this.Direccion,
             this.Costo,
-            this.Fecha,
-            this.Cubiera,
-            this.Evento});
+            this.FechaCreacion,
+            this.Cubierta,
+            this.EventoAsociado});
             this.dataGridView1.Location = new System.Drawing.Point(6, 108);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataGridView1.Name = "dataGridView1";
@@ -114,6 +114,7 @@
             this.buttonListar.TabIndex = 86;
             this.buttonListar.Text = "Listar";
             this.buttonListar.UseVisualStyleBackColor = true;
+            this.buttonListar.Click += new System.EventHandler(this.buttonListar_Click);
             // 
             // IdSede
             // 
@@ -145,23 +146,25 @@
             this.Costo.HeaderText = "Costo Mantenimiento";
             this.Costo.Name = "Costo";
             // 
-            // Fecha
+            // FechaCreacion
             // 
-            this.Fecha.HeaderText = "Fecha Creacion";
-            this.Fecha.Name = "Fecha";
+            this.FechaCreacion.DataPropertyName = "FechaCreacion";
+            this.FechaCreacion.HeaderText = "Fecha Creacion";
+            this.FechaCreacion.Name = "FechaCreacion";
             // 
-            // Cubiera
+            // Cubierta
             // 
-            this.Cubiera.HeaderText = "Cubierta";
-            this.Cubiera.Name = "Cubiera";
+            this.Cubierta.DataPropertyName = "Cubierta";
+            this.Cubierta.HeaderText = "Cubierta";
+            this.Cubierta.Name = "Cubierta";
             // 
-            // Evento
+            // EventoAsociado
             // 
-            this.Evento.DataPropertyName = "Evento";
+            this.EventoAsociado.DataPropertyName = "EventoAsociado";
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.Evento.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Evento.HeaderText = "Evento Deportivo";
-            this.Evento.Name = "Evento";
+            this.EventoAsociado.DefaultCellStyle = dataGridViewCellStyle2;
+            this.EventoAsociado.HeaderText = "Evento Asociado";
+            this.EventoAsociado.Name = "EventoAsociado";
             // 
             // GUIListarSD
             // 
@@ -194,8 +197,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Capacidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Costo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cubiera;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Evento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FechaCreacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cubierta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EventoAsociado;
     }
 }

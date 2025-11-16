@@ -22,6 +22,8 @@ class GUIAcercaDe(tk.Toplevel):
         descripcion = (
             "Desarrollado por:\n"
             "• Maria Paula Ramos, 2220211032\n"
+            "• Santiago Arciniegas Jimenez, 2220221016\n"
+
             
         )
 

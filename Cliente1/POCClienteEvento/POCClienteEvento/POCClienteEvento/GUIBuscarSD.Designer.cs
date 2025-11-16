@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIBuscarSD));
             this.txtCosto = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtCapacidad = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -50,6 +49,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtEvento = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.txtFecha = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,14 +69,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(84, 76);
             this.pictureBox1.TabIndex = 53;
             this.pictureBox1.TabStop = false;
-            // 
-            // txtFecha
-            // 
-            this.txtFecha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFecha.Location = new System.Drawing.Point(217, 388);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(260, 27);
-            this.txtFecha.TabIndex = 52;
             // 
             // txtDireccion
             // 
@@ -132,6 +124,7 @@
             this.buttonBuscar.TabIndex = 46;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // label8
             // 
@@ -249,6 +242,14 @@
             this.label10.TabIndex = 57;
             this.label10.Text = "Evento:";
             // 
+            // txtFecha
+            // 
+            this.txtFecha.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFecha.Location = new System.Drawing.Point(217, 388);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(260, 27);
+            this.txtFecha.TabIndex = 52;
+            // 
             // GUIBuscarSD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -286,7 +287,6 @@
         #endregion
         private System.Windows.Forms.TextBox txtCosto;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtCapacidad;
         private System.Windows.Forms.TextBox txtNombre;
@@ -305,5 +305,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtEvento;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtFecha;
     }
 }

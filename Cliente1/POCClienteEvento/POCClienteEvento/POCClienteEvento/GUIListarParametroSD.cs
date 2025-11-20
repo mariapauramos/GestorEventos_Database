@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -23,6 +24,48 @@ namespace POCClienteEvento
         private void buttonCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private async Task<string> ObtenerNombreEvento(string idEvento)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(idEvento) || idEvento == "N/A")
+                {
+                    return "Sin evento";
+                }
+
+                using (HttpClient client = new HttpClient())
+                {
+                    var credentials = Convert.ToBase64String(Encoding.ASCII.GetBytes("admin:admin"));
+                    client.DefaultRequestHeaders.Authorization =
+                        new AuthenticationHeaderValue("Basic", credentials);
+
+                    string url = $"http://localhost:8091/eventos/{idEvento}";
+
+                    HttpResponseMessage response = await client.GetAsync(url);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string json = await response.Content.ReadAsStringAsync();
+
+                        using (JsonDocument doc = JsonDocument.Parse(json))
+                        {
+                            if (doc.RootElement.TryGetProperty("nombre", out var nombreProp))
+                            {
+                                return nombreProp.GetString();
+                            }
+                        }
+                    }
+
+                    return "Evento no encontrado";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error obteniendo evento {idEvento}: {ex.Message}");
+                return "Error";
+            }
         }
 
         private async void buttonListar_Click(object sender, EventArgs e)
@@ -77,14 +120,15 @@ namespace POCClienteEvento
                                 }
 
 
-                                // ID EVENTO → STRING
+                                // ID EVENTO 
                                 string idEventoAsociado =
                                     item.TryGetProperty("idEventoAsociado", out var evProp) &&
                                     evProp.ValueKind != JsonValueKind.Null
                                         ? evProp.GetString()
                                         : "N/A";
+                                
+                                string nombreEvento = await ObtenerNombreEvento(idEventoAsociado);
 
-                              
 
                                 // Agregar filas a la tabla
                                 sedesList.Add(new
@@ -96,7 +140,8 @@ namespace POCClienteEvento
                                     Costo = costoMantenimiento,
                                     Cubierta = cubierta ? "Sí" : "No",
                                     FechaCreacion = fechaCreacion,
-                                    EventoAsociado = idEventoAsociado
+                                    IdEvento = idEventoAsociado,        
+                                    NombreEvento = nombreEvento
 
                                 });
                             }

@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIListarSD));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +44,8 @@
             this.Costo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaCreacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cubierta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EventoAsociado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdEvento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NombreEvento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -62,17 +64,18 @@
             this.Costo,
             this.FechaCreacion,
             this.Cubierta,
-            this.EventoAsociado});
+            this.IdEvento,
+            this.NombreEvento});
             this.dataGridView1.Location = new System.Drawing.Point(6, 108);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(843, 290);
+            this.dataGridView1.Size = new System.Drawing.Size(964, 290);
             this.dataGridView1.TabIndex = 85;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(216, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(302, 12);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 76);
@@ -83,7 +86,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(330, 39);
+            this.label1.Location = new System.Drawing.Point(416, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(243, 23);
@@ -94,7 +97,7 @@
             // 
             this.buttonCerrar.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCerrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.buttonCerrar.Location = new System.Drawing.Point(430, 419);
+            this.buttonCerrar.Location = new System.Drawing.Point(580, 415);
             this.buttonCerrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buttonCerrar.Name = "buttonCerrar";
             this.buttonCerrar.Size = new System.Drawing.Size(88, 23);
@@ -107,7 +110,7 @@
             // 
             this.buttonListar.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonListar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.buttonListar.Location = new System.Drawing.Point(226, 419);
+            this.buttonListar.Location = new System.Drawing.Point(376, 415);
             this.buttonListar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buttonListar.Name = "buttonListar";
             this.buttonListar.Size = new System.Drawing.Size(112, 23);
@@ -158,19 +161,27 @@
             this.Cubierta.HeaderText = "Cubierta";
             this.Cubierta.Name = "Cubierta";
             // 
-            // EventoAsociado
+            // IdEvento
             // 
-            this.EventoAsociado.DataPropertyName = "EventoAsociado";
+            this.IdEvento.DataPropertyName = "IdEvento";
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.EventoAsociado.DefaultCellStyle = dataGridViewCellStyle2;
-            this.EventoAsociado.HeaderText = "Evento Asociado";
-            this.EventoAsociado.Name = "EventoAsociado";
+            this.IdEvento.DefaultCellStyle = dataGridViewCellStyle2;
+            this.IdEvento.HeaderText = "ID Evento";
+            this.IdEvento.Name = "IdEvento";
+            // 
+            // NombreEvento
+            // 
+            this.NombreEvento.DataPropertyName = "NombreEvento";
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.NombreEvento.DefaultCellStyle = dataGridViewCellStyle3;
+            this.NombreEvento.HeaderText = "Nombre Evento";
+            this.NombreEvento.Name = "NombreEvento";
             // 
             // GUIListarSD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(873, 450);
+            this.ClientSize = new System.Drawing.Size(983, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -199,6 +210,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Costo;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaCreacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cubierta;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EventoAsociado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdEvento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NombreEvento;
     }
 }

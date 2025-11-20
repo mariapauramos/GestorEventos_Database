@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static POCClienteEvento.GUICrearED;
 
 namespace POCClienteEvento
 {
@@ -28,6 +29,50 @@ namespace POCClienteEvento
         private void buttonCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private async Task<string> ObtenerNombreEvento(string idEvento)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(idEvento))
+                {
+                    return "Sin evento asociado";
+                }
+
+                using (HttpClient client = new HttpClient())
+                {
+                    // Basic Auth
+                    var credentials = Convert.ToBase64String(Encoding.ASCII.GetBytes("admin:admin"));
+                    client.DefaultRequestHeaders.Authorization =
+                        new AuthenticationHeaderValue("Basic", credentials);
+
+                    string url = $"http://localhost:8091/eventos/{idEvento}";
+
+                    HttpResponseMessage response = await client.GetAsync(url);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string json = await response.Content.ReadAsStringAsync();
+
+                        var evento = JsonSerializer.Deserialize<EventoDto>(
+                            json,
+                            new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+                        return evento.nombre;
+                    }
+                    else
+                    {
+                        return $"Evento ID: {idEvento}";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Excepción obteniendo evento: {ex.Message}");
+                MessageBox.Show($"Error obteniendo evento: {ex.Message}", "Debug");
+                return $"Evento ID: {idEvento}";
+            }
         }
 
         private async void buttonBuscar_Click(object sender, EventArgs e)
@@ -76,9 +121,8 @@ namespace POCClienteEvento
 
                         txtFecha.Text = sede.fechaCreacion.ToString("yyyy-MM-dd HH:mm:ss");
 
-                        txtEvento.Text = string.IsNullOrEmpty(sede.idEventoAsociado)
-                                ? "Sin evento asociado"
-                                : sede.idEventoAsociado;
+                        string nombreEvento = await ObtenerNombreEvento(sede.idEventoAsociado);
+                        txtEvento.Text = nombreEvento;
 
 
                         // Bloquear edición
@@ -125,5 +169,11 @@ namespace POCClienteEvento
             // Este campo viene si tu backend lo expone con @JsonProperty("nombreEvento")
             public string idEventoAsociado { get; set; }
         }
-    }
+
+        public class EventoDto
+        {
+            public String idEvento { get; set; }
+            public string nombre { get; set; }
+        }
+        }
 }

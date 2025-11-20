@@ -119,7 +119,7 @@ class GUICrearSedeDeportiva(tk.Toplevel):
             "capacidad": int(self.entries["Capacidad:"].get()),
             "direccion": self.entries["Dirección:"].get(),
             "costoMantenimiento": float(self.entries["Costo Mantenimiento:"].get()),
-            "fechaCreacion": self.entry_fecha.get(),  # LocalDate correcto
+            "fechaCreacion": self.entry_fecha.get().strip(),  # usando localdate
             "cubierta": self.combo_cubierta.get() == "True",
             "idEventoAsociado": self.eventos_data[self.combo_eventos.get()]
         }

@@ -1,4 +1,5 @@
 package com.businessdevelop.POCEvento.servicio;
+import com.businessdevelop.POCEvento.config.WebClientConfig;
 import com.businessdevelop.POCEvento.dto.EventoConSedeDTO;
 import com.businessdevelop.POCEvento.dto.SedeResumenDTO;
 import com.businessdevelop.POCEvento.model.Evento;
@@ -10,7 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,17 +23,14 @@ public class ServicioEvento {
 
     private final EventosDRepository repositorio;
     private final EquiposRepository equiposRepository;
-    private final RestTemplate restTemplate;
-
-    @Value("${sede.service.url}")
-    private String sedeServiceUrl;
+    private final WebClient webClient;
 
     public ServicioEvento(EventosDRepository repositorio,
                           EquiposRepository equiposRepository,
-                          RestTemplate restTemplate) {
+                          WebClient webClient) {
         this.repositorio = repositorio;
         this.equiposRepository = equiposRepository;
-        this.restTemplate = restTemplate;
+        this.webClient = webClient;
     }
 
     //CRUD de gestion de eventos
@@ -116,6 +114,7 @@ public class ServicioEvento {
     }
 
     public EventoConSedeDTO buscarEventoConSede(String idEvento) {
+
         EventoDeportivo evento = repositorio.findById(idEvento)
                 .orElseThrow(() -> new RuntimeException("Evento no encontrado con id: " + idEvento));
 
@@ -126,22 +125,30 @@ public class ServicioEvento {
         dto.setAsistentes(evento.getAsistentes());
         dto.setFecha(evento.getFecha());
         dto.setTipoDeporte(evento.getTipoDeporte());
-        dto.setEquipos(evento.getEquipos()); // ya tienes la relación con equipos
+        dto.setEquipos(evento.getEquipos());
 
         try {
-            // Llamada al microservicio de sedes
-            String url = sedeServiceUrl + "/sedes/porEvento/" + idEvento;
-            SedeResumenDTO sede = restTemplate.getForObject(url, SedeResumenDTO.class);
-            dto.setSede(sede);
+            SedeResumenDTO[] sedeArray = webClient.get()
+                    .uri("/sedes/porEvento/{idEvento}", idEvento)
+                    .retrieve()
+                    .bodyToMono(SedeResumenDTO[].class)
+                    .block();
+
+            if (sedeArray != null) {
+                dto.setSedes(List.of(sedeArray));
+            } else {
+                dto.setSedes(new ArrayList<>());
+            }
+
         } catch (HttpClientErrorException.NotFound e) {
-            // No hay sede asociada → sede = null
-            dto.setSede(null);
+            dto.setSedes(new ArrayList<>());
+
         } catch (Exception e) {
-            // Error inesperado llamando al otro microservicio
             System.out.println("Error consultando sede en microservicio C: " + e.getMessage());
-            dto.setSede(null);
+            dto.setSedes(new ArrayList<>());
         }
 
         return dto;
     }
+
 }

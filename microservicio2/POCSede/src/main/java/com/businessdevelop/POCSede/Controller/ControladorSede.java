@@ -86,13 +86,12 @@ public class ControladorSede {
     }
 
     @GetMapping("/porEvento/{idEvento}")
-    public ResponseEntity<?> buscarPorEvento(@PathVariable String idEvento) {
-        return servicio.buscarPorEventoAsociado(idEvento)
-                .<ResponseEntity<?>>map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity
-                        .status(HttpStatus.NOT_FOUND)
-                        .body("No existe sede asociada al evento: " + idEvento));
+    public ResponseEntity<List<SedeDeportiva>> buscarPorEvento(@PathVariable String idEvento) {
+        List<SedeDeportiva> sedes = servicio.buscarPorEventoAsociado(idEvento);
+        return ResponseEntity.ok(sedes);
     }
+
+
 
 
 }

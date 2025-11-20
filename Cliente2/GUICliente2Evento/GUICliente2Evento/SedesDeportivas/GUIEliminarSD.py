@@ -3,6 +3,7 @@ from tkinter import messagebox
 import requests
 
 API_SEDES = "http://localhost:8092/sedes/"
+API_EVENTOS = "http://localhost:8091/eventos/" 
 
 class GUIEliminarSedeDeportiva(tk.Toplevel):
     def __init__(self, master=None):
@@ -53,9 +54,26 @@ class GUIEliminarSedeDeportiva(tk.Toplevel):
         tk.Button(self, text="Cerrar", font=("Verdana", 11, "bold"),
                   command=self.destroy).place(x=310, y=530, width=100)
 
-    # ================================
-    # BUSCAR SEDE
-    # ================================
+    def obtener_nombre_evento(self, id_evento):
+        """Obtiene el nombre del evento dado su ID"""
+        try:
+            if not id_evento:
+                return "Sin evento"
+            
+            resp = requests.get(f"{API_EVENTOS}{id_evento}",
+                               auth=("admin", "admin"),
+                               headers={"Accept": "application/json"})
+            
+            if resp.status_code == 200:
+                evento = resp.json()
+                return evento.get("nombre", "Sin nombre")
+            else:
+                return f"Evento ID: {id_evento}"
+        except Exception as e:
+            print(f"Error obteniendo evento {id_evento}:", e)
+            return f"Evento ID: {id_evento}"
+        
+   
     def buscar_sede(self):
         idSede = self.id_entry.get().strip()
 
@@ -77,9 +95,7 @@ class GUIEliminarSedeDeportiva(tk.Toplevel):
             messagebox.showerror("Error de conexión",
                                  f"No se pudo conectar al backend.\n{e}")
 
-    # ================================
-    # LLENAR CAMPOS
-    # ================================
+
     def llenar_campos(self, data):
         for entry in self.entries.values():
             entry.config(state="normal")
@@ -92,17 +108,15 @@ class GUIEliminarSedeDeportiva(tk.Toplevel):
         self.entries["Fecha Creación:"].insert(0, data.get("fechaCreacion", ""))
         self.entries["Cubierta:"].insert(0, "Sí" if data.get("cubierta") else "No")
 
-        self.entries["Evento Asociado:"].insert(
-            0,
-            data.get("nombreEvento", "Sin evento")
-        )
+       
+        id_evento = data.get("idEventoAsociado")
+        nombre_evento = self.obtener_nombre_evento(id_evento)
+        self.entries["Evento Asociado:"].insert(0, nombre_evento)
 
         for entry in self.entries.values():
             entry.config(state="readonly")
 
-    # ================================
-    # LIMPIAR CAMPOS
-    # ================================
+   
     def limpiar_campos(self):
         for entry in self.entries.values():
             entry.config(state="normal")
@@ -143,7 +157,7 @@ class GUIEliminarSedeDeportiva(tk.Toplevel):
                                  f"No se pudo conectar al servidor.\n{e}")
 
 
-# Ejecutar Independiente
+
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()

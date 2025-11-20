@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.businessdevelop.POCSede.repositories.SedeRepository;
 
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -26,7 +27,7 @@ public class ServicioSede {
 
         // setear fecha de creación si viene nula
         if (sede.getFechaCreacion() == null) {
-            sede.setFechaCreacion(LocalDateTime.now());
+            sede.setFechaCreacion(LocalDate.now());
         }
 
         // aquí podrías validar contra el microservicio de EventoDeportivo:
@@ -88,7 +89,8 @@ public class ServicioSede {
         return false;
     }
 
-    public Optional<SedeDeportiva> buscarPorEventoAsociado(String idEvento) {
+    public List<SedeDeportiva> buscarPorEventoAsociado(String idEvento) {
         return repositorio.findByIdEventoAsociado(idEvento);
     }
+
 }

@@ -16,9 +16,9 @@ public class EventoConSedeDTO {
     private LocalDate fecha;
     private String tipoDeporte;
 
-    // Puedes incluir equipos si quieres
+    // Equipos
     private List<Equipo> equipos;
 
-    // Sede asociada (puede ser null si no existe)
-    private SedeResumenDTO sede;
+    // Sedes asociadas (puede ser null si no existe)
+    private List<SedeResumenDTO> sedes;
 }

@@ -15,5 +15,6 @@ public interface SedeRepository extends JpaRepository<SedeDeportiva, Integer> {
     List<SedeDeportiva> findByCapacidadGreaterThanEqual(int capacidad);
 
 
-    Optional<SedeDeportiva> findByIdEventoAsociado(String idEventoAsociado);
+    List<SedeDeportiva> findByIdEventoAsociado(String idEvento);
+
 }

@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import jakarta.persistence.Id;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -41,7 +42,7 @@ public class SedeDeportiva {
     private double costoMantenimiento;  // double
 
     @Column(nullable = false)
-    private LocalDateTime fechaCreacion; // LocalDateTime
+    private LocalDate fechaCreacion; // LocalDateTime
 
     @Column(nullable = false)
     private boolean cubierta;           // boolean

@@ -3,6 +3,8 @@ from tkinter import ttk, messagebox
 import requests
 
 API_BASE = "http://localhost:8092/sedes/buscarPorCapacidad"
+API_EVENTOS = "http://localhost:8091/eventos/"
+
 
 class GUIListarFiltroSedeDeportiva(tk.Toplevel):
     def __init__(self, master=None):
@@ -61,8 +63,8 @@ class GUIListarFiltroSedeDeportiva(tk.Toplevel):
             if not id_evento:
                 return "Sin evento"
 
-            resp = requests.get(
-                f"http://localhost:8091/eventos/{id_evento}",
+
+            resp = requests.get(f"{API_EVENTOS}{id_evento}",
                 auth=("admin", "admin")
             )
 
